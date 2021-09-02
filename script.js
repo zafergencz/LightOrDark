@@ -67,7 +67,7 @@ toggleSwitch.addEventListener('change', switchTheme);
 const currentTheme = localStorage.getItem('theme');
 
 if(currentTheme){
-    toggleDarkLightMode(currentTheme);
+    toggleDarkLightMode(currentTheme);  
 }else{
     toggleDarkLightMode(LIGHT_THEME);
 }
